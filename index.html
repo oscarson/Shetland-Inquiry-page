@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- First experience creating a Survey Form -->
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Shetland CO</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">  
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="title">
+        <h1>Have a question or concern?</h1>
+      </div>
+  
+      <br>
+
+      <div id="description">
+        <p>
+          Fill out the form below to contact a member of The Shetland CO LLC team!
+        </p>  
+      </div>
+      
+      <br>
+
+      <div id="survey-form">
+        <form action="/action_page.php">
+          <label>
+            <div id="fullname">
+              Name: <input type="text" name="fullname" placeholder="Enter Full Name Here">
+            </div>
+          </label>
+          <br>
+          <label>
+            <div id="email">  
+              Email: <input type="text" name="email" placeholder="Enter Valid Email Here">
+            </div>
+          </label>
+          <br>
+          <!-- THIS CAN BE REMOVED - USED ONLY FOR FreeCodeCamp CURRENTLY - CAN ALSO FIND BETTER USE TO RELATE TO SHETLAND -->
+          <label>
+            <div id="number">
+              # of Occupants: <input type="number" name="number" min="1" max="6" placeholder="Maximum of 6">
+            </div>
+          </label>
+          <br>
+          <label>
+            <div id="dropdown">
+              Select the Option That Best Fits: <select name="dropdown">
+                <option value="current tenant">Current Tenant</option>
+                <option value="potential tenant">Potential Tenant</option>
+                <option value="other">Other</option>
+              </select>    
+            </div>
+          </label>
+          <br>
+          <div id=recommend>
+            Are you likely to recommend The Shetland LLC? 
+            <label for="yes">
+              <input id="name" type="radio" name="yes-no">Yes
+            </label>
+            <label for="no">
+              <input id="name" type="radio" name="yes-no">No
+            </label>
+          </div>
+          <br>
+          <div id="improvement">
+          What Can We Improve?
+            <input type="checkbox" name="option1" value="Maintenance">Maintenance
+            <input type="checkbox" name="option2" value="Price">Price
+            <input type="checkbox"name="option3" value="Other">Other
+          </div>
+          <br>
+          <br>
+          <div id="comments">
+            If you selected 'Other', please let us know why!
+            <br>
+            <!-- NEED TO FIGURE OUT HOW TO MAKE THE textarea VISUALLY BETTER AND MORE USEFUL-->
+            <textarea name="comments"></textarea>
+          </div>
+          <br>
+          <br>
+          <input type="submit">   
+        </form>  
+      </div>
+
+      <br>
+      <br>
+
+      <h6>- Created by <a href="https://github.com/oscarson" target="_blank">Chris Oscarson</a> 1/25/19 -</h6>
+
+    </div>
+  </body>
+
+</html>

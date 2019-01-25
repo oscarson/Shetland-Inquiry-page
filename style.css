@@ -1,0 +1,84 @@
+#main {
+    background-color: #F5F5F5;
+    overflow-x: auto;
+}
+
+#title {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Staatliches', cursive; 
+    color: #000065;
+    font-size: 30px;
+    padding-top: 15px;
+    margin-bottom: -30px;
+}
+
+#description {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#survey-form {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -125px;
+}
+
+#fullname {
+    padding-top: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#email {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#number {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#dropdown {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#options {
+    font-family: 'PT Sans Narrow', sans-serif;
+    opacity: 0.5;
+}
+
+#recommend {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#name {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#improvement {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#comments {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px; 
+}
+
+h6 {
+    font-family: 'PT Sans Narrow' sans-serif;
+    opacity: 0.5;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
